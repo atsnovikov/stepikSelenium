@@ -27,7 +27,7 @@ class TestReg(unittest.TestCase):
         button = browser.find_element(By.CSS_SELECTOR, "button.btn")
         button.click()
 
-        # Проверяем, что смогли зарегистрироваться
+        # Проверяем, что смогли зарегистрироватьс
         # ждем загрузки страницы
         time.sleep(1)
 
