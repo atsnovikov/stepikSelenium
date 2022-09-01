@@ -62,7 +62,7 @@ class TestReg(unittest.TestCase):
         input3 = browser.find_element(By.CSS_SELECTOR, "div.first_block div.third_class input.third")
         input3.send_keys('ccccccc')
 
-        # Отправляем заполненную форму
+        # Отправляем заполненную форму444
         button = browser.find_element(By.CSS_SELECTOR, "button.btn")
         button.click()
 
