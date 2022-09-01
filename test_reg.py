@@ -37,7 +37,7 @@ class TestReg(unittest.TestCase):
         welcome_text = welcome_text_elt.text
 
         # с помощью assert проверяем, что ожидаемый текст совпадает с текстом на странице сайта
-        self.assertEqual("Congratulations! You have successfully registered!", welcome_text, "не нашелся текст при регистрации во второй форме")
+        self.assertEqual("Congratulations! You have successfully registered!", welcome_text, "не нашелся текст при регистрации в первой форме")
         browser.quit()
 
     def test_reg2(self):
